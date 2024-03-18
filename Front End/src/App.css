@@ -1,0 +1,155 @@
+/* Header */
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0 0.5rem 1rem #5e5d5d4a;
+	position: sticky;
+	background: #fff;
+	color: black;
+	top: 0;
+	z-index: 5;
+}
+
+header img {
+	width: 3rem;
+	height: 3rem;
+}
+
+header nav ul,
+header section {
+	padding: 0 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header nav ul li {
+	padding: 1.5rem;
+}
+
+header nav ul li:hover {
+	transition: 0.3s;
+	color: #fba400;
+}
+
+header section p {
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+
+header section span {
+	color: #fba400;
+	padding: 0.1rem;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	background-color: #dddadaeb;
+	color: #504747b8;
+	padding: 10px 0;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 5px 15px;
+}
+
+footer p {
+	font-weight: 600;
+}
+
+/* login page */
+#bg {
+	background: linear-gradient(to right, #56E5B2 40%, #fff 40%, #fff 100%);
+	position: relative;
+	height: 80vh;
+}
+
+#login {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	box-shadow: 3px 3px 100px 0px #232323;
+	border-radius: 10px;
+	width: 80%;
+	height: 80%;
+
+	display: grid;
+	grid-template-columns: 4fr 6fr;
+}
+
+#login label {
+	text-align: left;
+}
+
+#login input {
+	height: 30px;
+	width: 100%;
+	margin: 5px auto;
+	display: block;
+	border-radius: 5px;
+	border-color: white;
+	padding: 15px;
+	background-color: white;
+	color: #232323;
+	font-size: 15px;
+}
+
+#login .formArea {
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.submit-btn {
+	height: 30px;
+	width: 100%;
+	background-color: #56E5B2;
+	margin: 5px auto;
+	display: block;
+	border-radius: 5px;
+	border-color: white;
+}
+
+#items{
+	min-height: 80vh;
+}
+.form-sect{
+	margin: 10px 10%;
+}
+.form-sect select:checked{
+	background-color: #56E5B2;
+}
+.form-sect input, .form-sect select{
+	width: 80%;
+	padding-left: 5px;
+}
+.form-sect input[type=text]{
+	width: 80%;
+	height: 30px;
+	font-size: 20px;
+}
+.form-sect input:focus{
+	outline: none;
+	border: 2px solid aqua;
+}
+.form-sect label{
+	font-weight: normal;
+	font-size: 20px;
+}
+.submit input{
+	padding: 15px;
+	margin-left: 40%;
+	background-color: #fba400;
+	border: none;
+	color: white;
+	font-weight: 600;
+	border-radius: 10px;
+	cursor: pointer;
+}	
